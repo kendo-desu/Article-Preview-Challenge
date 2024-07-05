@@ -1,0 +1,126 @@
+
+html {
+    box-sizing: border-box;
+   
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+    background-color:  hsl(210, 46%, 95%);
+    font-family: "Manrope", sans-serif;
+    font-weight: 500;
+    color:  hsl(214, 17%, 51%);
+}
+
+
+#wrapper {
+    border:  blue;
+    position: fixed;
+    inset: 0;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+    padding: 10vh 5vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+
+#card {
+    border-radius: 0.5rem;
+    max-width: 330px;
+    overflow: hidden;
+    background-color: white;
+}
+
+#top-sec {
+    height: 46vw;
+}
+
+#img-container {
+   
+    border:  red;
+    height: 100%;
+   
+}
+
+#top-img {
+
+border: green;
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: 50% 30%;
+
+
+}
+
+
+#bottom-sec {
+    border: rgb(128, 230, 128);
+    padding: 1rem 2rem;
+    height: 60%;
+}
+
+#text-box {
+    border:  red;
+}
+
+#share-box {
+    border:  blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: auto;
+}
+
+#avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+}
+
+#details{
+    border:  green;
+    height: fit-content;
+    
+}
+
+button {
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+}
+
+
+h1 {
+    
+    font-size: 1rem;
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+h2 {
+    font-size: 0.7rem;
+    border:  orange;
+    margin: 0;
+    color: hsl(217, 19%, 35%);
+}
+
+p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+#details p {
+    font-size: 0.7rem;
+}
