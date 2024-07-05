@@ -36,13 +36,13 @@ body {
 
 #card {
     border-radius: 0.5rem;
-    max-width: 330px;
+    max-width: 380px;
     overflow: hidden;
     background-color: white;
 }
 
 #top-sec {
-    height: 46vw;
+    height: 40%;
 }
 
 #img-container {
@@ -58,53 +58,79 @@ border: green;
 width: 100%;
 height: 100%;
 object-fit: cover;
-object-position: 50% 30%;
-
-
+object-position: 50% 15%;
 }
 
 
-#bottom-sec {
+#mid-sec {
     border: rgb(128, 230, 128);
-    padding: 1rem 2rem;
-    height: 60%;
+    padding: 0.5rem 2rem;
+    height: 48%;
 }
 
 #text-box {
-    border:  red;
+    margin-top: 2rem;
 }
 
-#share-box {
-    border:  blue;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: auto;
+#bottom-sec{
+    border:  red;
+    width: 100%;
+    background-color: hsl(217, 19%, 35%);
+    height: 12%;
 }
+
+#card-footer {
+    border: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+
 
 #avatar {
+    display: initial;
     width: 40px;
     height: 40px;
     border-radius: 100px;
+    margin-left: 7.5vw;
 }
 
 #details{
+    display: initial;
     border:  green;
+    color: hsl(212, 23%, 69%);
     height: fit-content;
+    margin-left: 10px;
+    margin-right: auto;
     
 }
+
+#social-container {
+    width: auto;
+    display: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 15vw;
+}
+
+
 
 button {
     border: 0;
     width: 30px;
     height: 30px;
     border-radius: 100px;
+    margin-right: 2rem;
 }
 
 
 h1 {
-    
-    font-size: 1rem;
+    padding-right: 0.3rem;
+    font-size: 1.0rem;
     font-weight: 700;
     color: hsl(217, 19%, 35%);
 }
@@ -116,9 +142,21 @@ h2 {
     color: hsl(217, 19%, 35%);
 }
 
+h3 {
+
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: hsl(210, 46%, 95%);
+    margin-right: 1rem;
+}
+
 p {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin: 0;
+}
+
+.icon {
+    margin: 0 2.5vw;
 }
 
 #details p {
